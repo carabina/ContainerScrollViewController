@@ -14,7 +14,7 @@ import UIKit
 ///
 /// This class is implemented in terms of `ContainerScrollViewEmbedder`, which may
 /// be used directly if its scroll view embedding functionality is required in an
-/// existing class that cannot inherit from `ContainerScrollViewController`.
+/// existing class that cannot subclass `ContainerScrollViewController`.
 ///
 /// The resulting view hierarchy looks like this:
 ///
