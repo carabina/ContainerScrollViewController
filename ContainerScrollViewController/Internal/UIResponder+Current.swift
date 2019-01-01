@@ -14,6 +14,7 @@ private var foundFirstResponder: UIResponder? = nil
 
 extension UIResponder {
 
+    /// The current first responder.
     static var rf_current: UIResponder? {
         UIApplication.shared.sendAction(#selector(UIResponder.storeFirstResponder(_:)), to: nil, from: nil, for: nil)
         defer {
