@@ -18,7 +18,7 @@ import UIKit
 ///
 /// The resulting view hierarchy looks like this:
 ///
-///     view (embeddingViewController.view)
+///     view (containerScrollViewController.view)
 ///       scrollView
 ///         embeddedView (embeddedViewController.view)
 ///
